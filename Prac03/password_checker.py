@@ -16,7 +16,6 @@ def get_password():
     else:
         return password
     password = (input("> "))
-    return password
 
 
 main()

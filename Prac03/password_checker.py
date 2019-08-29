@@ -5,14 +5,17 @@ SPECIAL_CHARACTERS = "!@#$%^&*()_-=+`~,./'[]<>?{}|\\"
 
 
 def main():
-
     password = get_password()
     print("{}".format(len(password) * '*'))
+
+
 def get_password():
     password = input("> ")
-    while not(password):
+    if len(password) < 10:
         print("Invalid password!")
-        password = (input("> "))
+    else:
+        return password
+    password = (input("> "))
     return password
 
 

@@ -1,21 +1,3 @@
-# def main():
-#     incomes = []
-#     months = 0
-#     number_of_months = input("How many months: ")
-#     while months < int(number_of_months):
-#         income = input("Enter income for month {}: ".format(months+1))
-#         incomes.append(income)
-#         months = months + 1
-#     print(incomes)
-# 
-# 
-# main()
-"""
-CP1404/CP5632 Practical
-Starter code for cumulative total income program
-"""
-
-
 def main():
     """Display income report for incomes over a given number of months."""
     incomes = []
